@@ -389,7 +389,10 @@ img {
 }
 }
 @media screen and (min-width: 315px) and (max-width: 599px) {
-     header {
+     body, html, main {
+        width: 100%;
+     }
+    header {
     height: 60px;
 }
   .hamburger {
